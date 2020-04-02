@@ -6,7 +6,6 @@ project:
         api_version: '48.0'
     dependencies:
       - github: 'https://github.com/SalesforceFoundation/NPSP'
-      - github: 'https://github.com/daitubasa/Food-Bank'
     source_format: sfdx
 
 tasks:
@@ -27,6 +26,6 @@ sources:
 
 flows:
     dependencies:
-        steps:
-            3:
-                flow: npsp:config_managed
+        steps:
+            3:
+                flow: npsp:config_managed
